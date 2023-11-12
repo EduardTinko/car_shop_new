@@ -130,4 +130,3 @@ def generate_license(sell_car):
     )
     licence, create = Licence.objects.get_or_create(car=sell_car, number=car_license)
     licence.save()
-
